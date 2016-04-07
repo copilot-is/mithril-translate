@@ -147,8 +147,8 @@
     return translation
   }
 
-  mx.translate = function (key) {
-    return tFunc(key);
+  mx.translate = function (key, count, replacements) {
+    return tFunc(key, count, replacements);
   };
 
   mx.translate.configure = function (options) {
